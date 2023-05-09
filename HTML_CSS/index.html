@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML-CSS-Demo</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="https://kit.fontawesome.com/6d1f984aba.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="navBar">
+    <ul class="nav_container">
+        <li>
+            <a href="#"> <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i> Search</a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+                contact
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                Login</a>
+        </li>
+    </ul>
+  </div>
+  <div class="articlebox">
+    <img src="https://beefarmer.github.io/HTML-CSS-Demo/src/articleimg.png">
+    <div class="article">
+        <h1>Title for the article</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+              culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </div>
+  <div class="billing">
+    <div class="billingInfo">
+        <div class="infoBilling">
+            <h2>Billing Address</h2>
+            <label>
+                <i class="fa-solid fa-user"></i>
+                 Full Name
+            </label>
+            <input type="text" placeholder="Full name" />
+            <label>
+                <i class="fa-regular fa-envelope"></i>
+                Email
+            </label>
+            <input type="text" placeholder="email address" />
+            <label>
+                <i class="fa-solid fa-address-card"></i>
+                Address
+            </label>
+            <input type="text" placeholder="Address" />
+            <label>
+                <i class="fa-solid fa-city"></i>
+                City
+            </label>
+            <input type="text" placeholder="city" />
+            <div class="stateZip">
+                <div class="state">
+                    <label>State</label>
+                    <input type="text" placeholder="state" />
+                </div>
+                <div class="zip">
+                    <label>zip</label>
+                    <input type="text" placeholder="zip" />
+                </div>
+            </div>
+        </div>
+        <div class="infoPayment">
+            <h2>Payment</h2>
+            <label>Accepted Cards</label>
+            <div class="iconGroup">
+                <i class="fa-brands fa-cc-visa"></i>
+                <i class="fa-brands fa-apple-pay"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-discover"></i>
+            </div>
+            <label>Name on Card</label>
+            <input type="text"  placeholder="card name"/>
+            <label>Credit Card Number</label>
+            <input type="text"  placeholder="card number"/>
+            <label>Exp Month</label>
+            <input type="text"  placeholder="Exp month"/>
+            <div class="cvv">
+                <div class="billingYear">
+                    <label>Exp Year</label>
+                    <input type="text" placeholder="year" />
+                </div>
+                <div class="cvvNumber">
+                    <label>CVV</label>
+                    <input type="text" placeholder="cvv" />
+                </div>
+            </div>
+        </div>
+        <div class="infoBottom">
+            <div>
+                <input type="checkbox"/>
+                <b>Shipping address same as billing</b>
+            </div>
+            <input type="submit" value="Continue to checkout" class="btn"/>
+        </div>
+    </div>
+    <div class="total">
+        <div>
+            <b>Cart</b>
+            <span class="cart">
+                <b>
+                    <i class="fa-solid fa-cart-shopping" style="color: #9ed723;"></i>
+                    4
+                </b>
+            </span>
+        </div>
+        <div>
+            <a href="#">Item 1</a>
+            <span class="price">$2</span>
+        </div>
+        <div>
+            <a href="#">Item 2</a>
+            <span class="price">$5</span>
+        </div>
+        <div>
+            <a href="#">Item 3</a>
+            <span class="price">$8</span>
+        </div>
+        <div>
+            <a href="#">Item 4</a>
+            <span class="price">$15</span>
+        </div>
+        <hr />
+        <div>
+            <b>Total</b>
+            <span class="cart">
+                <b>$38</b>
+            </span>
+        </div>
+    </div>
+  </div>
+  <div class="timelineContainer">
+    <div class="box left">
+        <div class="boxContent">
+            <h1>2019</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <i class="fa-solid fa-circle-o" style="color: #ffa200;"></i>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box right">
+        <div class="boxContent">
+            <h1>2018</h1>
+            <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+        <i class="fa-solid fa-circle-o" style="color: #ffa200;"></i>
+    </div>
+    <div class="box left">
+        <div class="boxContent">
+            <h1>2017</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <i class="fa-solid fa-circle-o" style="color: #ffa200;"></i>
+    </div>
+    <div class="box"></div>
+  </div>
+  <div id>
+
+  </div>
+</body>
+</html>
